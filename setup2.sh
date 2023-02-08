@@ -82,15 +82,4 @@ echo "=> Now enter Mumble server connectivity details"
 echo "talkkonnect.xml from $GOPATH/src/github.com/talkkonnect/talkkonnect"
 echo "and configure talkkonnect features. Happy talkkonnecting!!"
 
-## Install RPI Cam Web Interface
-echo "Installing RPI Cam Web Interface"
-
-sudo apt-get update
-sudo apt-get dist-upgrade
-
-git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git
-cd RPi_Cam_Web_Interface
-
-sudo ./install.sh
-
 exit
