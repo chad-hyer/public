@@ -71,15 +71,8 @@ go get -v github.com/talkkonnect/talkkonnect
 cd $GOPATH/src/github.com/talkkonnect/talkkonnect
 
 ## Add talkconnect config xml
-wget https://raw.githubusercontent.com/chad-hyer/public/main/talkkonnect.xml
+## wget https://raw.githubusercontent.com/chad-hyer/public/main/talkkonnect.xml
 
-go build -o /home/talkkonnect/bin/talkkonnect cmd/talkkonnect/main.go
-
-## Notify User
-echo "=> Finished building TalKKonnect"
-echo "=> talkkonnect binary is in /home/talkkonect/bin"
-echo "=> Now enter Mumble server connectivity details"
-echo "talkkonnect.xml from $GOPATH/src/github.com/talkkonnect/talkkonnect"
-echo "and configure talkkonnect features. Happy talkkonnecting!!"
+## go build -o /home/talkkonnect/bin/talkkonnect cmd/talkkonnect/main.go
 
 exit
