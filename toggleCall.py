@@ -17,7 +17,7 @@ while(True):
         value = input
         led_last = not led_last
         start = subprocess.run(['sudo', './RPi_Cam_Web_Interface/start.sh'])
-        talk = subprocess.run(['sudo', './home/talkkonnect/bin/talkkonnect'])
+        talk = subprocess.run(['sudo', '/home/talkkonnect/bin/talkkonnect'])
     elif(input == 0 and value != input):
         print("Ending Call")
         subprocess.run(['sudo', './RPi_Cam_Web_Interface/stop.sh'])
