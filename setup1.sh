@@ -7,3 +7,5 @@ sudo apt-get install git
 git clone https://github.com/respeaker/seeed-voicecard
 cd seeed-voicecard
 sudo ./install.sh
+
+sudo raspi-config
