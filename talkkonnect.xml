@@ -411,8 +411,8 @@
         <txlockenabled>true</txlockenabled>
         <txlocktimeoutsecs>30</txlocktimeoutsecs>
       </panicfunction>
-      <audiorecordfunction enabled="false">
-        <recordonstart>false</recordonstart>
+      <audiorecordfunction enabled="true">
+        <recordonstart>true</recordonstart>
         <recordsystem/>
         <recordmode/>
         <recordtimeout>0</recordtimeout>
@@ -420,10 +420,10 @@
         <recordfrominput/>
         <recordmictimeout>0</recordmictimeout>
         <recordsoft/>
-        <recordsavepath/>
+        <recordsavepath>/Recordings</recordsavepath>
         <recordarchivepath/>
         <recordprofile/>
-        <recordfileformat/>
+        <recordfileformat>wav</recordfileformat>
         <recordchunksize/>
       </audiorecordfunction>
       <usbkeyboard enabled="false">
