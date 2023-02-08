@@ -14,12 +14,14 @@ while(True):
         if on == False:
             print("Calling")
             start = subprocess.run(['sudo', './RPi_Cam_Web_Interface/start.sh'])
+            subprocess.run(['sudo', '/home/talkkonnect/bin/talkkonnect'])
             input = 1
             time.sleep(5)
             on = True
         elif on == True:
             print("Ending Call")
             subprocess.run(['sudo', './RPi_Cam_Web_Interface/stop.sh'])
+            os.system('sudo pkill talkkonnect')
             input = 1
             time.sleep(5)
             on = False
