@@ -306,7 +306,7 @@
         <pins>
           <pin direction="output" device="led/relay" name="voiceactivity" pinno="22" type="gpio" chipid="0" enabled="false"/>
           <pin direction="output" device="led/relay" name="participants" pinno="27" type="gpio" chipid="0" enabled="false"/>
-          <pin direction="output" device="led/relay" name="transmit" pinno="17" type="gpio" chipid="0" enabled="false"/>
+          <pin direction="output" device="led/relay" name="transmit" pinno="17" type="gpio" chipid="0" enabled="true"/>
           <pin direction="output" device="led/relay" name="online" pinno="5" type="gpio" chipid="0" enabled="false"/>
           <pin direction="output" device="led/relay" name="attention" pinno="2" type="gpio" chipid="0" enabled="false"/>
           <pin direction="output" device="led/relay" name="voicetarget" pinno="2" type="gpio" chipid="0" enabled="false"/>
