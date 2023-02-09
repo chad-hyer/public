@@ -53,7 +53,7 @@
         <outputvolcontroldevice>Headphone</outputvolcontroldevice>
         <outputmutecontroldevice>Headphone</outputmutecontroldevice>
         <logfilenameandpath>/var/log/talkkonnect.log</logfilenameandpath>
-        <logging>screenwithlineno</logging>
+        <logging>screen</logging>
         <loglevel>debug</loglevel>
         <cancellablestream>true</cancellablestream>
         <streamonstart>true</streamonstart>
