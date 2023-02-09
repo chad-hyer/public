@@ -326,8 +326,8 @@ func (b *Talkkonnect) initGPIO() {
 							if TxButtonState == 1 {
 								if isTx {
 									isTx = false
-									//b.TransmitStop(true)
-									b.CleanUp()
+									b.TransmitStop(true)
+									//b.CleanUp()
 									playIOMedia("iotxpttstop")
 									if Config.Global.Software.Settings.TxCounter {
 										txcounter++
@@ -353,8 +353,8 @@ func (b *Talkkonnect) initGPIO() {
 										}
 									}
 								} else {
-									//b.TransmitStart()
-									b.CleanUp()
+									b.TransmitStart()
+									//b.CleanUp()
 								}
 
 							}
@@ -382,8 +382,8 @@ func (b *Talkkonnect) initGPIO() {
 					if currentState != prevState {
 						isTx = !isTx
 						if isTx {
-							//b.TransmitStop(true)
-							b.CleanUp()
+							b.TransmitStop(true)
+							//b.CleanUp()
 							log.Println("debug: Toggle Stopped Transmitting")
 							playIOMedia("iotxtogglestop")
 							for {
@@ -404,8 +404,8 @@ func (b *Talkkonnect) initGPIO() {
 								}
 							}
 							playIOMedia("txtogglestart")
-							//b.TransmitStart()
-							b.CleanUp()
+							b.TransmitStart()
+							//b.CleanUp()
 							log.Println("debug: Toggle Started Transmitting")
 							for {
 								currentState, err := TxToggle.Read()
