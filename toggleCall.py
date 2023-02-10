@@ -13,10 +13,10 @@ while(True):
     if input == 0:
         #if on == False:
         print("Calling")
-        #os.system('sudo sh /home/tradeview01/RPi_Cam_Web_Interface/start.sh')
+        os.system('sudo sh /home/tradeview01/RPi_Cam_Web_Interface/start.sh')
         subprocess.run(['sudo', '/home/talkkonnect/bin/talkkonnect'])
         print("Ending Call")
-        #os.system('sudo sh /home/tradeview01/RPi_Cam_Web_Interface/stop.sh')
+        os.system('sudo sh /home/tradeview01/RPi_Cam_Web_Interface/stop.sh')
         input = 1
         time.sleep(5)
         #on = True
