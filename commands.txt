@@ -1,2 +1,3 @@
 cd /home/mumble/bin
 sudo ./talkiepi -server tradeview01.mumble.com:64271 -username tradeview01_streamer
+Hello there
